@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "inpunto",
+    "slug": "inpunto",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "APP_ENV": "development",
+      "API_BASE_URL": "https://api.inpunto.com",
+      "BLE_UUIDS": "0000110B-0000-1000-8000-00805F9B34FB",
+      "LOG_LEVEL": "debug",
+      "LOG_RETENTION_DAYS": 30,
+      "LOG_MAX_ENTRIES": 10000,
+      "HARDWARE_SIM_EXTERNAL_WS_URL": null
+    }
+  }
+}
